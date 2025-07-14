@@ -451,11 +451,11 @@ header::before {
 }
 
 .bar .progress-line.python span {
-    width: 80%;
+    width: 85%;
 }
 
 .bar .progress-line.mysql span {
-    width: 75%;
+    width: 85%;
 }
 
 .progress-line span::before {
@@ -783,8 +783,9 @@ footer ul li a:hover {
     }
 
     .services_container .cards {
-        row-gap: 1rem;
-        grid-template-columns: repeat(2, 1fr);
+      display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
     }
     
     .services_container .cards .card {
